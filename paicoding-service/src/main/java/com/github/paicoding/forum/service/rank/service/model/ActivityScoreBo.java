@@ -11,7 +11,7 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class ActivityScoreBo {
     /**
-     * 访问页面增加活跃度
+     * 访问页面增加活跃度，这个字段是请求url
      */
     private String path;
 

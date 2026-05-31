@@ -74,17 +74,20 @@ public class UserActivityRankServiceImpl implements UserActivityRankService {
         } else if (activityScore.getArticleId() != null) {
             field = activityScore.getArticleId() + "_";
             if (activityScore.getPraise() != null) {
+                // 点赞
                 field += "praise";
+                // 这里是收回活跃分，并不是扣除，下方同理
                 score = BooleanUtils.isTrue(activityScore.getPraise()) ? 2 : -2;
             } else if (activityScore.getCollect() != null) {
+                // 收藏
                 field += "collect";
                 score = BooleanUtils.isTrue(activityScore.getCollect()) ? 2 : -2;
             } else if (activityScore.getRate() != null) {
-                // 评论回复
+                // 评论
                 field += "rate";
                 score = BooleanUtils.isTrue(activityScore.getRate()) ? 3 : -3;
             } else if (BooleanUtils.isTrue(activityScore.getPublishArticle())) {
-                // 发布文章
+                // 发布文字
                 field += "publish";
                 score += 10;
             }
