@@ -5,7 +5,6 @@ import com.github.paicoding.forum.api.model.vo.rank.dto.RankItemDTO;
 import com.github.paicoding.forum.api.model.vo.user.dto.SimpleUserInfoDTO;
 import com.github.paicoding.forum.core.cache.RedisClient;
 import com.github.paicoding.forum.core.util.DateUtil;
-import com.github.paicoding.forum.core.util.NumUtil;
 import com.github.paicoding.forum.service.rank.service.UserActivityRankService;
 import com.github.paicoding.forum.service.rank.service.model.ActivityScoreBo;
 import com.github.paicoding.forum.service.user.service.UserService;
@@ -120,6 +119,13 @@ public class UserActivityRankServiceImpl implements UserActivityRankService {
                 if (log.isDebugEnabled()) {
                     log.debug("活跃度更新加分! key#field = {}#{}, add = {}, newScore = {}", todayRankKey, userId, score, updatedScore);
                 }
+
+                // 仅当当前key(todayRankKey, monthRankKey) 当前未设置ttl时，才会设置ttl，避免了下面说的两个问题
+                RedisClient.expireIfAbsent(todayRankKey, 31 * DateUtil.ONE_DAY_SECONDS);
+                RedisClient.expireIfAbsent(monthRankKey, 12 * DateUtil.ONE_MONTH_SECONDS);
+                /*if (log.isDebugEnabled()) {
+                    log.debug("活跃度更新加分! key#field = {}#{}, add = {}, newScore = {}", todayRankKey, userId, score, updatedScore);
+                }
                 if (updatedScore <= score) {
                     // 由于上面只实现了日/月活跃度的增加，但是没有设置对应的有效期；为了避免持久保存导致redis占用较高；因此这里设定了缓存的有效期
                     // 日活跃榜单，保存31天；月活跃榜单，保存1年
@@ -139,7 +145,8 @@ public class UserActivityRankServiceImpl implements UserActivityRankService {
                     if (!NumUtil.upZero(ttl)) {
                         RedisClient.expire(monthRankKey, 12 * DateUtil.ONE_MONTH_SECONDS);
                     }
-                }
+
+                }*/
             }
         } else if (recordedScore > 0) {
             // 2.2 之前已经加过分，因此这次减分可以执行

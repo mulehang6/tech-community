@@ -6,6 +6,7 @@ import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.connection.RedisStringCommands;
 import org.springframework.data.redis.connection.RedisZSetCommands;
+import org.springframework.data.redis.connection.ReturnType;
 import org.springframework.data.redis.core.RedisCallback;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.types.Expiration;
@@ -328,6 +329,29 @@ public class RedisClient {
         }
 
         return JsonUtil.toObj(new String(ans, CODE), clz);
+    }
+
+    /**
+     * 仅当key当前没有设置ttl时设置ttl
+     */
+    public static Boolean expireIfAbsent(String key, Long expire) {
+        return template.execute((RedisCallback<Boolean>) connection -> {
+            byte[] script = ("local ttl = redis.call('TTL', KEYS[1]) " +
+                    "if ttl == -1 then " +
+                    "return redis.call('EXPIRE', KEYS[1], ARGV[1]) " +
+                    "end " +
+                    "return 0").getBytes(CODE);
+
+            Object result = connection.eval(
+                    script,
+                    ReturnType.INTEGER,
+                    1,
+                    keyBytes(key),
+                    String.valueOf(expire).getBytes(CODE)
+            );
+
+            return Long.valueOf(1L).equals(result);
+        });
     }
 
 
