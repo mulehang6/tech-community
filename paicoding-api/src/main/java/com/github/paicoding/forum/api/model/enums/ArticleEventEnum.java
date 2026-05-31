@@ -21,10 +21,10 @@ public enum ArticleEventEnum {
     ;
 
 
-    private int type;
-    private String msg;
+    private final int type;
+    private final String msg;
 
-    private static Map<Integer, ArticleEventEnum> mapper;
+    private static final Map<Integer, ArticleEventEnum> mapper;
 
     static {
         mapper = new HashMap<>();

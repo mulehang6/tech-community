@@ -279,13 +279,16 @@ public class RedisClient {
      */
     public static List<ImmutablePair<String, Double>> zTopNScore(String key, int n) {
         return template.execute((RedisCallback<List<ImmutablePair<String, Double>>>) connection -> {
+            // zRangeWithScores里，-n：倒数第几个
+            // Tuple 元组
             Set<RedisZSetCommands.Tuple> set = connection.zRangeWithScores(keyBytes(key), -n, -1);
             if (set == null) {
                 return Collections.emptyList();
             }
             return set.stream()
                     .map(tuple -> ImmutablePair.of(toObj(tuple.getValue(), String.class), tuple.getScore()))
-                    .sorted((o1, o2) -> Double.compare(o2.getRight(), o1.getRight())).collect(Collectors.toList());
+                    .sorted((o1, o2) -> Double.compare(o2.getRight(), o1.getRight()))
+                    .collect(Collectors.toList());
         });
     }
 

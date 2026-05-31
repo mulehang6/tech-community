@@ -28,12 +28,10 @@ public class UserActivityListener {
 
     /**
      * 用户操作行为，增加对应的积分
-     *
-     * @param msgEvent
      */
     @EventListener(classes = NotifyMsgEvent.class)
     @Async
-    public void notifyMsgListener(NotifyMsgEvent msgEvent) {
+    public void notifyMsgListener(NotifyMsgEvent<?> msgEvent) {
         switch (msgEvent.getNotifyType()) {
             case COMMENT:
             case REPLY:
@@ -41,28 +39,28 @@ public class UserActivityListener {
                 userActivityRankService.addActivityScore(ReqInfoContext.getReqInfo().getUserId(), new ActivityScoreBo().setRate(true).setArticleId(comment.getArticleId()));
                 break;
             case COLLECT:
-                UserFootDO foot = (UserFootDO) msgEvent.getContent();
-                userActivityRankService.addActivityScore(ReqInfoContext.getReqInfo().getUserId(), new ActivityScoreBo().setCollect(true).setArticleId(foot.getDocumentId()));
+                UserFootDO collectFoot = (UserFootDO) msgEvent.getContent();
+                userActivityRankService.addActivityScore(ReqInfoContext.getReqInfo().getUserId(), new ActivityScoreBo().setCollect(true).setArticleId(collectFoot.getDocumentId()));
                 break;
             case CANCEL_COLLECT:
-                foot = (UserFootDO) msgEvent.getContent();
-                userActivityRankService.addActivityScore(ReqInfoContext.getReqInfo().getUserId(), new ActivityScoreBo().setCollect(false).setArticleId(foot.getDocumentId()));
+                UserFootDO cancelCollectFoot = (UserFootDO) msgEvent.getContent();
+                userActivityRankService.addActivityScore(ReqInfoContext.getReqInfo().getUserId(), new ActivityScoreBo().setCollect(false).setArticleId(cancelCollectFoot.getDocumentId()));
                 break;
             case PRAISE:
-                foot = (UserFootDO) msgEvent.getContent();
-                userActivityRankService.addActivityScore(ReqInfoContext.getReqInfo().getUserId(), new ActivityScoreBo().setPraise(true).setArticleId(foot.getDocumentId()));
+                UserFootDO praiseFoot = (UserFootDO) msgEvent.getContent();
+                userActivityRankService.addActivityScore(ReqInfoContext.getReqInfo().getUserId(), new ActivityScoreBo().setPraise(true).setArticleId(praiseFoot.getDocumentId()));
                 break;
             case CANCEL_PRAISE:
-                foot = (UserFootDO) msgEvent.getContent();
-                userActivityRankService.addActivityScore(ReqInfoContext.getReqInfo().getUserId(), new ActivityScoreBo().setPraise(false).setArticleId(foot.getDocumentId()));
+                UserFootDO cancelPraiseFoot = (UserFootDO) msgEvent.getContent();
+                userActivityRankService.addActivityScore(ReqInfoContext.getReqInfo().getUserId(), new ActivityScoreBo().setPraise(false).setArticleId(cancelPraiseFoot.getDocumentId()));
                 break;
             case FOLLOW:
-                UserRelationDO relation = (UserRelationDO) msgEvent.getContent();
-                userActivityRankService.addActivityScore(ReqInfoContext.getReqInfo().getUserId(), new ActivityScoreBo().setFollow(true).setFollowedUserId(relation.getUserId()));
+                UserRelationDO followRelation = (UserRelationDO) msgEvent.getContent();
+                userActivityRankService.addActivityScore(ReqInfoContext.getReqInfo().getUserId(), new ActivityScoreBo().setFollow(true).setFollowedUserId(followRelation.getUserId()));
                 break;
             case CANCEL_FOLLOW:
-                relation = (UserRelationDO) msgEvent.getContent();
-                userActivityRankService.addActivityScore(ReqInfoContext.getReqInfo().getUserId(), new ActivityScoreBo().setFollow(false).setFollowedUserId(relation.getUserId()));
+                UserRelationDO cancelRelation = (UserRelationDO) msgEvent.getContent();
+                userActivityRankService.addActivityScore(ReqInfoContext.getReqInfo().getUserId(), new ActivityScoreBo().setFollow(false).setFollowedUserId(cancelRelation.getUserId()));
                 break;
             default:
         }
@@ -70,8 +68,6 @@ public class UserActivityListener {
 
     /**
      * 发布文章，更新对应的积分
-     *
-     * @param event
      */
     @Async
     @EventListener(ArticleMsgEvent.class)
