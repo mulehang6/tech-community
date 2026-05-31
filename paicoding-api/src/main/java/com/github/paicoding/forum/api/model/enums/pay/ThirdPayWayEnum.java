@@ -8,7 +8,7 @@ import java.util.Objects;
  * 三方平台支付方式
  *
  * @author YiHui
- * @date 2024/12/3
+ * 创建于 2024/12/3
  */
 public enum ThirdPayWayEnum {
     // // 官方说明有效期五分钟，我们这里设置一下有效期为四分之后，避免正好卡在失效的时间点

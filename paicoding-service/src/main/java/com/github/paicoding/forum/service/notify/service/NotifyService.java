@@ -13,7 +13,7 @@ import java.util.Map;
  * 消息通知服务类
  *
  * @author YiHui
- * @date 2022/9/3
+ * 创建于 2022/9/3
  */
 public interface NotifyService {
     public static String NOTIFY_TOPIC = "/msg";

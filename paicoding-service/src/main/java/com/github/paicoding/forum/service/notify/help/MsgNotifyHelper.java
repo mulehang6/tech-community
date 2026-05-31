@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * @author YiHui
- * @date 2024/11/27
+ * 创建于 2024/11/27
  */
 @Service
 public class MsgNotifyHelper {

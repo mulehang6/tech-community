@@ -6,7 +6,7 @@ import lombok.Data;
  * 知识星球的登录方式
  *
  * @author YiHui
- * @date 2025/8/19
+ * 创建于 2025/8/19
  */
 @Data
 public class ZsxqLoginVo {

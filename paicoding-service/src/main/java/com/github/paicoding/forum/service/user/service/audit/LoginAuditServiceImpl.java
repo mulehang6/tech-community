@@ -52,7 +52,7 @@ import java.util.stream.Collectors;
  * 全量扫描下沉到 {@link UserShareRiskControlService} 的定时任务，列表请求不再做 ETL。
  *
  * @author Codex
- * @date 2026/4/23
+ * 创建于 2026/4/23
  */
 @Slf4j
 @Service

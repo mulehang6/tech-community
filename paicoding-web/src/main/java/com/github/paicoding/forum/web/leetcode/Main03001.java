@@ -17,7 +17,7 @@ import java.util.List;
  * 返回所有串联子串在 s 中的开始索引。你可以以 任意顺序 返回答案。
  *
  * @author 沉默王二
- * @date 2/27/24
+ * 创建于 2/27/24
  */
 public class Main03001 {
     public static void main(String[] args) {

@@ -33,7 +33,7 @@ import java.util.function.Function;
  * 个人收款码-基于邮件的支付流程
  *
  * @author YiHui
- * @date 2024/12/9
+ * 创建于 2024/12/9
  */
 @Slf4j
 @Service

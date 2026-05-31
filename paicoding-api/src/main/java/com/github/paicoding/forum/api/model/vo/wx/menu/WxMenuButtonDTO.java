@@ -11,7 +11,7 @@ import java.util.List;
  * 微信自定义菜单按钮
  *
  * @author Codex
- * @date 2026/3/23
+ * 创建于 2026/3/23
  */
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)

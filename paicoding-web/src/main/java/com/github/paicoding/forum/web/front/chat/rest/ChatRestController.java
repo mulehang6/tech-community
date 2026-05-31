@@ -29,7 +29,7 @@ import java.util.Map;
  * STOMP协议的ChatGpt聊天通讯实现方式
  *
  * @author YiHui
- * @date 2023/6/5
+ * 创建于 2023/6/5
  */
 @Slf4j
 @RestController

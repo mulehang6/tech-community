@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
  * 微信被动回复快速ACK后的异步补发
  *
  * @author Codex
- * @date 2026/3/24
+ * 创建于 2026/3/24
  */
 @Slf4j
 @Component

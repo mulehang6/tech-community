@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
  * 活跃登录会话
  *
  * @author Codex
- * @date 2026/4/23
+ * 创建于 2026/4/23
  */
 @Repository
 public class UserActiveSessionDao extends ServiceImpl<UserActiveSessionMapper, UserActiveSessionDO> {

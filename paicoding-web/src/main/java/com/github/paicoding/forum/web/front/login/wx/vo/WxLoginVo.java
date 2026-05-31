@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * @author YiHui
- * @date 2022/9/5
+ * 创建于 2022/9/5
  */
 @Data
 public class WxLoginVo {

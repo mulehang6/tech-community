@@ -10,7 +10,7 @@ import java.io.Serializable;
  * 更新文章URL Slug请求。
  *
  * @author Codex
- * @date 2026/5/25
+ * 创建于 2026/5/25
  */
 @Data
 @ApiModel("更新文章URL Slug请求")

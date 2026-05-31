@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Param;
  * 标签mapper接口
  *
  * @author louzai
- * @date 2022-07-18
+ * 创建于 2022-07-18
  */
 public interface ReadCountMapper extends BaseMapper<ReadCountDO> {
 

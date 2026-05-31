@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
 
 /**
  * @author YiHui
- * @date 2023/2/10
+ * 创建于 2023/2/10
  */
 public class PwdGenTest {
 

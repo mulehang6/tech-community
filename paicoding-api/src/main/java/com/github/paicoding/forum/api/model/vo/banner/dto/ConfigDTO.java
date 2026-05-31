@@ -11,7 +11,7 @@ import lombok.Data;
  * Banner
  *
  * @author louzai
- * @date 2022-09-17
+ * 创建于 2022-09-17
  */
 @Data
 public class ConfigDTO extends BaseDTO {

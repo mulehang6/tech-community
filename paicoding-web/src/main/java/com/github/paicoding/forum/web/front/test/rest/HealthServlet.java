@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 
 /**
  * @author YiHui
- * @date 2023/3/25
+ * 创建于 2023/3/25
  */
 @WebServlet(urlPatterns = "/check")
 public class HealthServlet extends HttpServlet {

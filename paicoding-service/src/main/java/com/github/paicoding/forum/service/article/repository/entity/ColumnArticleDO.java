@@ -10,7 +10,7 @@ import lombok.EqualsAndHashCode;
  * 专栏文章
  *
  * @author YiHui
- * @date 2022/9/14
+ * 创建于 2022/9/14
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

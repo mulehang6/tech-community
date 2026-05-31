@@ -10,7 +10,7 @@ import java.util.Map;
  * 多数据源的配置加载
  *
  * @author YiHui
- * @date 2023/4/30
+ * 创建于 2023/4/30
  */
 @Data
 @ConfigurationProperties(prefix = DsProperties.DS_PREFIX)

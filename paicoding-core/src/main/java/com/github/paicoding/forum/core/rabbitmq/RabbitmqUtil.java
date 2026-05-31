@@ -8,7 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * 说明：添加rabbitmq连接池后，这个就可以废弃掉
  * @author Louzai
- * @date 2023/5/10
+ * 创建于 2023/5/10
  */
 public class RabbitmqUtil {
 

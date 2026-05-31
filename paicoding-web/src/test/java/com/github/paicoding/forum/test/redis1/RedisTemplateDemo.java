@@ -17,7 +17,7 @@ import java.util.Set;
  * 微信搜索「沉默王二」，回复 Java
  *
  * @author 沉默王二
- * @date 3/27/23
+ * 创建于 3/27/23
  */
 @SpringBootTest(classes = QuickForumApplication.class)
 public class RedisTemplateDemo {

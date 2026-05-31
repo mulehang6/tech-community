@@ -8,7 +8,7 @@ import java.io.Serializable;
  * 发布文章请求参数
  *
  * @author YiHui
- * @date 2022/7/24
+ * 创建于 2022/7/24
  */
 @Data
 public class ContentPostReq implements Serializable {

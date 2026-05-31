@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 敏感词后台
  *
  * @author Codex
- * @date 2026/3/24
+ * 创建于 2026/3/24
  */
 @RestController
 @Permission(role = UserRole.LOGIN)

@@ -21,7 +21,7 @@ import java.util.function.Function;
  * 与三方支付服务交互的门面类
  *
  * @author YiHui
- * @date 2024/12/6
+ * 创建于 2024/12/6
  */
 @Service
 public class ThirdPayHandler {

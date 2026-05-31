@@ -7,7 +7,7 @@ import java.util.function.Consumer;
 
 /**
  * @author YiHui
- * @date 2023/6/9
+ * 创建于 2023/6/9
  */
 public interface ChatService {
 

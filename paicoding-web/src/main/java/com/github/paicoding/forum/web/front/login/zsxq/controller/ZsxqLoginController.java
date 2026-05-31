@@ -27,7 +27,7 @@ import java.util.Objects;
  * 知识星球登录
  *
  * @author YiHui
- * @date 2025/8/19
+ * 创建于 2025/8/19
  */
 @RestController
 @Slf4j

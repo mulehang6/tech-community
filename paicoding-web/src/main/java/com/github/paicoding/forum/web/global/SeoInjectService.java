@@ -37,7 +37,7 @@ import java.util.stream.Collectors;
  * ogp seo标签: <a href="https://ogp.me/">开放内容协议 OGP</a>
  *
  * @author YiHui
- * @date 2023/2/13
+ * 创建于 2023/2/13
  */
 @Service
 public class SeoInjectService {

@@ -12,7 +12,7 @@ import java.util.List;
  * 专栏文章分组
  *
  * @author yihui
- * @date 24/12/17
+ * 创建于 24/12/17
  */
 @Repository
 public class ColumnArticleGroupDao extends ServiceImpl<ColumnArticleGroupMapper, ColumnArticleGroupDO> {

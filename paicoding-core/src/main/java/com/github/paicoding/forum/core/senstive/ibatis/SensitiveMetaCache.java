@@ -7,7 +7,7 @@ import java.util.function.Function;
  * 敏感词缓存
  *
  * @author YiHui
- * @date 2023/8/9
+ * 创建于 2023/8/9
  */
 public class SensitiveMetaCache {
     private static ConcurrentHashMap<String, SensitiveObjectMeta> CACHE = new ConcurrentHashMap<>();

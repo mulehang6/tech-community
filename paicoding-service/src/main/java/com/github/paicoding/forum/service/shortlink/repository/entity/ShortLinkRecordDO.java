@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
  * 短链接记录数据库对象
  *
  * @author betasecond
- * @date 2025-02-13
+ * 创建于 2025-02-13
  */
 @Data
 @NoArgsConstructor

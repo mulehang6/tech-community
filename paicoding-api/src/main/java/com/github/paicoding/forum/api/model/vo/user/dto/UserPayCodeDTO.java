@@ -10,7 +10,7 @@ import java.io.Serializable;
  * 用户收款码
  *
  * @author YiHui
- * @date 2024/10/30
+ * 创建于 2024/10/30
  */
 @Data
 @NoArgsConstructor

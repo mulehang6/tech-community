@@ -10,7 +10,7 @@ import com.github.paicoding.forum.api.model.vo.banner.dto.ConfigDTO;
  * Banner后台接口
  *
  * @author louzai
- * @date 2022-07-24
+ * 创建于 2022-07-24
  */
 public interface ConfigSettingService {
 

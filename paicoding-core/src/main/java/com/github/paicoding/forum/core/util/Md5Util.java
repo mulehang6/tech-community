@@ -6,7 +6,7 @@ import java.security.NoSuchAlgorithmException;
 
 /**
  * @author YiHui
- * @date 2022/10/13
+ * 创建于 2022/10/13
  */
 public class Md5Util {
     private Md5Util() {

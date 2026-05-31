@@ -8,7 +8,7 @@ import java.util.Date;
  * 后台登录会话视图
  *
  * @author Codex
- * @date 2026/4/23
+ * 创建于 2026/4/23
  */
 @Data
 public class UserActiveSessionDTO {

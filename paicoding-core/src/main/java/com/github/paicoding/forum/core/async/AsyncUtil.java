@@ -33,7 +33,7 @@ import java.util.function.Supplier;
  * 异步工具类
  *
  * @author YiHui
- * @date 2023/6/12
+ * 创建于 2023/6/12
  */
 @Slf4j
 public class AsyncUtil {

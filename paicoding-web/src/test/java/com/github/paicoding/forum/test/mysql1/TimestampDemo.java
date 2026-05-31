@@ -8,7 +8,7 @@ import java.time.format.DateTimeFormatter;
  * 微信搜索「沉默王二」，回复 Java
  *
  * @author 沉默王二
- * @date 2/2/24
+ * 创建于 2/2/24
  */
 public class TimestampDemo {
     public static void main(String[] args) {

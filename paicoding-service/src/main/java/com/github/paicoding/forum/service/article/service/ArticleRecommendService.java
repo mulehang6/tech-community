@@ -6,7 +6,7 @@ import com.github.paicoding.forum.api.model.vo.article.dto.ArticleDTO;
 
 /**
  * @author YiHui
- * @date 2022/9/26
+ * 创建于 2022/9/26
  */
 public interface ArticleRecommendService {
     /**

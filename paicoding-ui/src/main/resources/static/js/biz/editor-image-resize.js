@@ -11,7 +11,7 @@
  * EditorImageResize.init(editorInstance);
  * 
  * @author PaiCoding
- * @date 2026-01-30
+ * 创建于 2026-01-30
  * @version 2.0 (Moveable)
  */
 (function() {

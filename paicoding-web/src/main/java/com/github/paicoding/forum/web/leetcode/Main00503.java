@@ -4,7 +4,7 @@ package com.github.paicoding.forum.web.leetcode;
  * 微信搜索「沉默王二」，回复 Java
  *
  * @author 沉默王二
- * @date 12/18/23
+ * 创建于 12/18/23
  */
 public class Main00503 {
     public static void main(String[] args) {

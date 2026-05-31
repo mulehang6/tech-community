@@ -7,7 +7,7 @@ import java.sql.Timestamp;
 
 /**
  * @author YiHui
- * @date 2022/9/4
+ * 创建于 2022/9/4
  */
 @Data
 public class NotifyMsgDTO implements Serializable {

@@ -2,7 +2,7 @@ package com.github.paicoding.forum.core.util.id.snowflake;
 
 /**
  * @author YiHui
- * @date 2023/10/17
+ * 创建于 2023/10/17
  */
 public interface IdGenerator {
     /**

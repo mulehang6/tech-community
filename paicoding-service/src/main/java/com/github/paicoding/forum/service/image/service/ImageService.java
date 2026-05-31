@@ -4,7 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * @author LouZai
- * @date 2022/9/7
+ * 创建于 2022/9/7
  */
 public interface ImageService {
     /**

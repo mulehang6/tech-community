@@ -4,7 +4,7 @@ import com.github.hui.quick.plugin.qrcode.util.ClassUtils;
 
 /**
  * @author YiHui
- * @date 2023/5/28
+ * 创建于 2023/5/28
  */
 public class DruidCheckUtil {
 

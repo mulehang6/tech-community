@@ -8,7 +8,7 @@ import java.io.IOException;
 
 /**
  * @author YiHui
- * @date 2026/1/12
+ * 创建于 2026/1/12
  */
 public class CdnImgSerializer extends JsonSerializer<String> {
     @Override

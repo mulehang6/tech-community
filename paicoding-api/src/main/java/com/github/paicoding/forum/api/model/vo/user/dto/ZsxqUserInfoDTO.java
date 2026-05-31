@@ -14,7 +14,7 @@ import java.util.Date;
  * 基本用户信息
  *
  * @author YiHui
- * @date 2022/9/26
+ * 创建于 2022/9/26
  */
 @Data
 @Accessors(chain = true)

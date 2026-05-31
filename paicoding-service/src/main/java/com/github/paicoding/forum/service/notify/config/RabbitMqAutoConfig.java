@@ -15,7 +15,7 @@ import javax.annotation.Resource;
 
 /**
  * @author YiHui
- * @date 2023/6/9
+ * 创建于 2023/6/9
  */
 @Configuration
 @ConditionalOnProperty(value = "rabbitmq.switchFlag")

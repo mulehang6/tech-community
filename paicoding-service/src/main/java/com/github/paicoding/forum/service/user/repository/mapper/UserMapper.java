@@ -11,7 +11,7 @@ import java.util.List;
  * 用户登录mapper接口
  *
  * @author louzai
- * @date 2022-07-18
+ * 创建于 2022-07-18
  */
 public interface UserMapper extends BaseMapper<UserDO> {
     /**

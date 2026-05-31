@@ -7,7 +7,7 @@ import lombok.Getter;
  * 登录审计事件
  *
  * @author Codex
- * @date 2026/4/23
+ * 创建于 2026/4/23
  */
 @Getter
 @AllArgsConstructor

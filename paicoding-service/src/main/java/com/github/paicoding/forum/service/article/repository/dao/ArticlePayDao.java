@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
  * <p>
  *
  * @author YiHui
- * @date 2024-10-29
+ * 创建于 2024-10-29
  */
 @Repository
 public class ArticlePayDao extends ServiceImpl<ArticlePayRecordMapper, ArticlePayRecordDO> {

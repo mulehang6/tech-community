@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * @author YiHui
- * @date 2022/9/4
+ * 创建于 2022/9/4
  */
 @Data
 public class NoticeResVo {

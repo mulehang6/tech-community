@@ -19,7 +19,7 @@ import java.util.Set;
  * Environment variables and explicit -D properties still take precedence.
  *
  * @author itwanger
- * @date 2026/3/23
+ * 创建于 2026/3/23
  */
 public final class DotenvUtil {
     private static final List<String> ENV_FILES = Arrays.asList(".env", ".env.local");

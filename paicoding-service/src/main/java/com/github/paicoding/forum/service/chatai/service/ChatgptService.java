@@ -2,7 +2,7 @@ package com.github.paicoding.forum.service.chatai.service;
 
 /**
  * @author YiHui
- * @date 2023/6/2
+ * 创建于 2023/6/2
  */
 public interface ChatgptService {
 

@@ -6,7 +6,7 @@ import java.util.Random;
  * 用户名生成器
  *
  * @author YiHui
- * @date 2022/9/27
+ * 创建于 2022/9/27
  */
 public class UserRandomGenHelper {
     public static final String[] name_decorate = new String[]{

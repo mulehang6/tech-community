@@ -19,7 +19,7 @@ import org.springframework.stereotype.Component;
  * 用户活跃相关的消息监听器
  *
  * @author YiHui
- * @date 2023/8/19
+ * 创建于 2023/8/19
  */
 @Component
 public class UserActivityListener {

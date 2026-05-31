@@ -5,7 +5,7 @@ package com.github.paicoding.forum.service.constant;
  *
  * @ClassName: EsFieldConstant
  * @Author: ygl
- * @Date: 2023/5/26 09:39
+ * 创建于: 2023/5/26 09:39
  * @Version: 1.0
  */
 public class EsIndexConstant {

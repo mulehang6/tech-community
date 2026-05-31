@@ -8,7 +8,7 @@ import java.util.Date;
  * 疑似共享账号视图
  *
  * @author Codex
- * @date 2026/4/25
+ * 创建于 2026/4/25
  */
 @Data
 public class UserShareRiskDTO {

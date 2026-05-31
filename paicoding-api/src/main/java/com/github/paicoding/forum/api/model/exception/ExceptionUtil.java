@@ -4,7 +4,7 @@ import com.github.paicoding.forum.api.model.vo.constants.StatusEnum;
 
 /**
  * @author YiHui
- * @date 2022/9/2
+ * 创建于 2022/9/2
  */
 public class ExceptionUtil {
 

@@ -11,7 +11,7 @@ import lombok.EqualsAndHashCode;
  * 用户个人信息表
  *
  * @author louzai
- * @date 2022-07-18
+ * 创建于 2022-07-18
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

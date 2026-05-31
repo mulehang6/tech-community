@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * @author YiHui
- * @date 2023/1/12
+ * 创建于 2023/1/12
  */
 @Data
 @ConfigurationProperties(prefix = "net")

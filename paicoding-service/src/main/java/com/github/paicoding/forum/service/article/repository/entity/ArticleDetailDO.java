@@ -11,7 +11,7 @@ import lombok.EqualsAndHashCode;
  * DO 对应数据库实体类
  *
  * @author louzai
- * @date 2022-07-18
+ * 创建于 2022-07-18
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

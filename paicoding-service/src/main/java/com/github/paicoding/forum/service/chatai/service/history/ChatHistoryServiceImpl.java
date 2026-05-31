@@ -21,7 +21,7 @@ import java.util.Objects;
  * 对话历史记录
  *
  * @author YiHui
- * @date 2025/2/7
+ * 创建于 2025/2/7
  */
 @Service
 public class ChatHistoryServiceImpl implements ChatHistoryService {

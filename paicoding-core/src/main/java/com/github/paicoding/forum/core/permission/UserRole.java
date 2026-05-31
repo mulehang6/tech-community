@@ -2,7 +2,7 @@ package com.github.paicoding.forum.core.permission;
 
 /**
  * @author YiHui
- * @date 2022/8/25
+ * 创建于 2022/8/25
  */
 public enum UserRole {
     /**

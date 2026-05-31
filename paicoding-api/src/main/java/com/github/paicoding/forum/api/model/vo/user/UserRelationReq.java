@@ -6,7 +6,7 @@ import lombok.Data;
  * 用户关系入参
  *
  * @author louzai
- * @date 2022-07-24
+ * 创建于 2022-07-24
  */
 @Data
 public class UserRelationReq {

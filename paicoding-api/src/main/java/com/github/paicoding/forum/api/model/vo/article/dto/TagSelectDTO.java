@@ -10,7 +10,7 @@ import java.io.Serializable;
  * 通用标签选择
  *
  * @author LouZai
- * @date 2022/8/28
+ * 创建于 2022/8/28
  */
 @Data
 public class TagSelectDTO implements Serializable {

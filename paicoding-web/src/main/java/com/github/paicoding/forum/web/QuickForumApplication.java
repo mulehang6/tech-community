@@ -36,7 +36,7 @@ import java.net.URI;
  * 入口，直接运行即可
  *
  * @author yihui
- * @date 2022/7/6
+ * 创建于 2022/7/6
  */
 @Slf4j
 @EnableAsync

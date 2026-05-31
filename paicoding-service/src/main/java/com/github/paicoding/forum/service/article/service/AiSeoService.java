@@ -7,7 +7,7 @@ import com.github.paicoding.forum.api.model.vo.article.AiSeoGenerateRes;
  * AI SEO生成服务
  *
  * @author 沉默王二
- * @date 2026/1/28
+ * 创建于 2026/1/28
  */
 public interface AiSeoService {
     

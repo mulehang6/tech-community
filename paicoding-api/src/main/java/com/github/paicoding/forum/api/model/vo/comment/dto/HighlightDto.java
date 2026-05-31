@@ -8,7 +8,7 @@ import lombok.Data;
  * {"elementTag":"p","elementIndex":5,"startOffset":11,"endOffset":29,"selectedText":"层，强业务相关，其中每个划分出来的模"}
  *
  * @author YiHui
- * @date 2025/11/3
+ * 创建于 2025/11/3
  */
 @Data
 public class HighlightDto {

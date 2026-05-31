@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author YiHui
- * @date 2022/8/29
+ * 创建于 2022/8/29
  */
 @Component
 public class SpringUtil implements ApplicationContextAware, EnvironmentAware, ApplicationListener<ContextClosedEvent> {

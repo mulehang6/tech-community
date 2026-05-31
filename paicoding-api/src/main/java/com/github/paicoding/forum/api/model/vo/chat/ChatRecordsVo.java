@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
  * 聊天记录
  *
  * @author YiHui
- * @date 2023/6/9
+ * 创建于 2023/6/9
  */
 @Data
 @Accessors(chain = true)

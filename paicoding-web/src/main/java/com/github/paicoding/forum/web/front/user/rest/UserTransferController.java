@@ -19,7 +19,7 @@ import java.io.IOException;
  * 用户账号迁移
  *
  * @author YiHui
- * @date 2025/9/29
+ * 创建于 2025/9/29
  */
 @Permission(role = UserRole.LOGIN)
 @RestController

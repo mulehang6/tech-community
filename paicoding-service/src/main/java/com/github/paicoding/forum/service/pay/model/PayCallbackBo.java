@@ -8,7 +8,7 @@ import lombok.experimental.Accessors;
  * 支付回调通知业务对象
  *
  * @author YiHui
- * @date 2024/12/6
+ * 创建于 2024/12/6
  */
 @Data
 @Accessors(chain = true)

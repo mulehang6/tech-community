@@ -49,7 +49,7 @@ import java.util.function.Function;
  * 微信公众号登录相关
  *
  * @author YiHui
- * @date 2022/9/2
+ * 创建于 2022/9/2
  */
 @Slf4j
 @RequestMapping(path = "wx")

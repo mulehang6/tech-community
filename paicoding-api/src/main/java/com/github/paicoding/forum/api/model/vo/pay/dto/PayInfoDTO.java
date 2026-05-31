@@ -9,7 +9,7 @@ import java.util.Map;
  * 用于支付的相关信息
  *
  * @author YiHui
- * @date 2024/12/9
+ * 创建于 2024/12/9
  */
 @Data
 public class PayInfoDTO implements Serializable {

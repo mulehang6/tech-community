@@ -7,7 +7,7 @@ import com.github.paicoding.forum.service.user.repository.entity.UserActiveSessi
  * 活跃登录会话
  *
  * @author Codex
- * @date 2026/4/23
+ * 创建于 2026/4/23
  */
 public interface UserActiveSessionMapper extends BaseMapper<UserActiveSessionDO> {
 }

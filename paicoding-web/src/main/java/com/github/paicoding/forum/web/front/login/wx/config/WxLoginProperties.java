@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author YiHui
- * @date 2025/8/19
+ * 创建于 2025/8/19
  */
 @Component
 @Data

@@ -12,7 +12,7 @@ import java.util.Set;
 
 /**
  * @author YiHui
- * @date 2023/1/12
+ * 创建于 2023/1/12
  */
 public interface ImageUploader {
     String DEFAULT_FILE_TYPE = "txt";

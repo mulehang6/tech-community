@@ -6,7 +6,7 @@ import com.github.paicoding.forum.service.user.service.help.UserSessionHelper;
 
 /**
  * @author YiHui
- * @date 2022/8/15
+ * 创建于 2022/8/15
  */
 public interface LoginService {
     String SESSION_KEY = "f-session";

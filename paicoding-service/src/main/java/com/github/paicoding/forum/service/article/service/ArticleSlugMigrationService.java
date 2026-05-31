@@ -16,7 +16,7 @@ import java.util.List;
  * 为现有文章生成SEO友好的URL标识
  *
  * @author Claude
- * @date 2025-11-10
+ * 创建于 2025-11-10
  */
 @Slf4j
 @Service

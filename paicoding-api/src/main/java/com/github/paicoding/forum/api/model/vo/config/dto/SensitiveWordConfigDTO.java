@@ -9,7 +9,7 @@ import java.util.List;
  * 敏感词配置详情
  *
  * @author Codex
- * @date 2026/3/24
+ * 创建于 2026/3/24
  */
 @Data
 public class SensitiveWordConfigDTO implements Serializable {

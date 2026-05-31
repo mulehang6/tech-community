@@ -9,7 +9,7 @@ import java.util.List;
  * 微信菜单校验结果
  *
  * @author Codex
- * @date 2026/3/23
+ * 创建于 2026/3/23
  */
 @Data
 public class WxMenuValidateResDTO implements Serializable {

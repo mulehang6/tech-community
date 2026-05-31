@@ -9,7 +9,7 @@ import java.util.List;
  * 子评论列表响应
  *
  * @author claude
- * @date 2026/03/26
+ * 创建于 2026/03/26
  */
 @Data
 public class SubCommentListVO {

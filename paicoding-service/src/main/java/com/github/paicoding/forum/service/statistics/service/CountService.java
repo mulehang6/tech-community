@@ -7,7 +7,7 @@ import com.github.paicoding.forum.api.model.vo.user.dto.UserStatisticInfoDTO;
  * 计数统计相关
  *
  * @author YiHui
- * @date 2022/9/2
+ * 创建于 2022/9/2
  */
 public interface CountService {
     /**

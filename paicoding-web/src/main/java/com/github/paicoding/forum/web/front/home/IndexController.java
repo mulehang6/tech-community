@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * @author YiHui
- * @date 2022/7/6
+ * 创建于 2022/7/6
  */
 @Controller
 public class IndexController extends BaseViewController {

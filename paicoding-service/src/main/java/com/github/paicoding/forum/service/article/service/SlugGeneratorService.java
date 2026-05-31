@@ -37,7 +37,7 @@ import java.util.regex.Pattern;
  * 使用大模型提炼更语义化的短链接
  *
  * @author YiHui
- * @date 2025/12/03
+ * 创建于 2025/12/03
  */
 @Slf4j
 @Service

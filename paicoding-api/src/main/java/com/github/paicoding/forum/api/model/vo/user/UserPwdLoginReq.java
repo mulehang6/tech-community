@@ -9,7 +9,7 @@ import java.io.Serializable;
  * 用户名密码登录方式
  *
  * @author YiHui
- * @date 2022/8/15
+ * 创建于 2022/8/15
  */
 @Data
 @Accessors(chain = true)

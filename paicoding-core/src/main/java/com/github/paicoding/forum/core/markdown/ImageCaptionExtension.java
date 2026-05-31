@@ -13,7 +13,7 @@ import org.jetbrains.annotations.NotNull;
  * and displays the alt text as a caption below the image.
  *
  * @author 沉默王二
- * @date 2025-10-20
+ * 创建于 2025-10-20
  */
 public class ImageCaptionExtension implements HtmlRenderer.HtmlRendererExtension {
 

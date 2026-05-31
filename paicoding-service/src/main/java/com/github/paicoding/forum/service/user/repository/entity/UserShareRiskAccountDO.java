@@ -11,7 +11,7 @@ import java.util.Date;
  * 疑似共享账号状态
  *
  * @author Codex
- * @date 2026/5/12
+ * 创建于 2026/5/12
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

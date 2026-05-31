@@ -4,7 +4,7 @@ package com.github.paicoding.forum.service.statistics.service;
  * 用户统计服务
  *
  * @author YiHui
- * @date 2023/3/26
+ * 创建于 2023/3/26
  */
 public interface UserStatisticService {
     /**

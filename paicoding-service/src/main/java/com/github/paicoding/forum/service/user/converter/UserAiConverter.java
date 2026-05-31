@@ -8,7 +8,7 @@ import org.apache.commons.lang3.StringUtils;
 
 /**
  * @author YiHui
- * @date 2023/6/27
+ * 创建于 2023/6/27
  */
 public class UserAiConverter {
 

@@ -8,7 +8,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 /**
  * @author eventime
- * @date 2025/2/11
+ * 创建于 2025/2/11
  */
 
 public class ImageServiceTest extends BasicTest {

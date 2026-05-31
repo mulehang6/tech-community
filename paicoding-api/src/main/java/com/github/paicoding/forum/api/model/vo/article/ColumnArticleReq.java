@@ -9,7 +9,7 @@ import java.io.Serializable;
  * 保存Column文章请求参数
  *
  * @author LouZai
- * @date 2022/9/26
+ * 创建于 2022/9/26
  */
 @Data
 public class ColumnArticleReq implements Serializable {

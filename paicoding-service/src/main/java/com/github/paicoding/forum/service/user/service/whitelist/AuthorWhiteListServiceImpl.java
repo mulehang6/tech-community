@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 
 /**
  * @author YiHui
- * @date 2023/4/9
+ * 创建于 2023/4/9
  */
 @Service
 public class AuthorWhiteListServiceImpl implements AuthorWhiteListService {

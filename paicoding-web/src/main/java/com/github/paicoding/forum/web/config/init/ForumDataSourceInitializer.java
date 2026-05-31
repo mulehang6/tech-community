@@ -27,7 +27,7 @@ import java.util.Objects;
  * 表初始化，只有首次启动时，才会执行
  *
  * @author YiHui
- * @date 2022/10/15
+ * 创建于 2022/10/15
  */
 @Slf4j
 @Configuration

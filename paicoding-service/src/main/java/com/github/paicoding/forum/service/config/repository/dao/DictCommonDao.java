@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * @author Louzai
- * @date 2022/9/2
+ * 创建于 2022/9/2
  */
 @Repository
 public class DictCommonDao extends ServiceImpl<DictCommonMapper, DictCommonDO> {

@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @author YiHui
- * @date 2023/2/13
+ * 创建于 2023/2/13
  */
 @Data
 @JacksonXmlRootElement(localName = "urlset", namespace = "http://www.sitemaps.org/schemas/sitemap/0.9")

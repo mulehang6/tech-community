@@ -23,7 +23,7 @@ import javax.servlet.http.HttpServletRequest;
  * 图片服务，要求登录之后才允许操作
  *
  * @author LouZai
- * @date 2022/9/7
+ * 创建于 2022/9/7
  */
 @Permission(role = UserRole.LOGIN)
 @RequestMapping(path = {"image/", "admin/image/", "api/admin/image/",})

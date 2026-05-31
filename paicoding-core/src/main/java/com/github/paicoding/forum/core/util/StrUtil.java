@@ -27,7 +27,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author YiHui
- * @date 2024/12/5
+ * 创建于 2024/12/5
  */
 public class StrUtil {
     private static final String IMAGE_DIMENSION_CACHE_VERSION = "text-size-v11:";

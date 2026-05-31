@@ -6,7 +6,7 @@ import java.sql.*;
  * 微信搜索「沉默王二」，回复 Java
  *
  * @author 沉默王二
- * @date 1/26/24
+ * 创建于 1/26/24
  */
 class DatabaseCreator {
     private static final String URL = "jdbc:mysql://localhost:3306/?useSSL=false&serverTimezone=UTC";

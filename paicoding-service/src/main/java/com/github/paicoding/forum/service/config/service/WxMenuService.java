@@ -16,7 +16,7 @@ import com.github.paicoding.forum.api.model.vo.wx.menu.WxMenuValidateResDTO;
  * 微信菜单管理
  *
  * @author Codex
- * @date 2026/3/23
+ * 创建于 2026/3/23
  */
 public interface WxMenuService {
     WxMenuDetailDTO getDetail();

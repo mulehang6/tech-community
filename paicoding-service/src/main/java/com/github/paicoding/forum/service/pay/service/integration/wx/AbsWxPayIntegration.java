@@ -30,7 +30,7 @@ import java.util.function.Function;
 
 /**
  * @author YiHui
- * @date 2024/12/6
+ * 创建于 2024/12/6
  */
 @Slf4j
 public abstract class AbsWxPayIntegration implements ThirdPayIntegrationApi {

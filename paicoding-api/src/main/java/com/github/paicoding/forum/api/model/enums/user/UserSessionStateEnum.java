@@ -7,7 +7,7 @@ import lombok.Getter;
  * 会话状态
  *
  * @author Codex
- * @date 2026/4/23
+ * 创建于 2026/4/23
  */
 @Getter
 @AllArgsConstructor

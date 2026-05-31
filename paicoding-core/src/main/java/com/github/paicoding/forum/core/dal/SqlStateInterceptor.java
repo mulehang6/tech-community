@@ -31,7 +31,7 @@ import java.util.regex.Matcher;
  * mybatis拦截器。输出sql执行情况
  *
  * @author YiHui
- * @date 2023/5/01
+ * 创建于 2023/5/01
  */
 @Slf4j
 @Intercepts({@Signature(type = StatementHandler.class, method = "query", args = {Statement.class, ResultHandler.class}), @Signature(type = StatementHandler.class, method = "update", args = {Statement.class})})

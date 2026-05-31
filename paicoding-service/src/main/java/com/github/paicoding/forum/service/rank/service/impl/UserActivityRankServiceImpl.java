@@ -25,7 +25,7 @@ import java.util.stream.IntStream;
 
 /**
  * @author YiHui
- * @date 2023/8/19
+ * 创建于 2023/8/19
  */
 @Slf4j
 @Service
@@ -87,7 +87,7 @@ public class UserActivityRankServiceImpl implements UserActivityRankService {
                 field += "rate";
                 score = BooleanUtils.isTrue(activityScore.getRate()) ? 3 : -3;
             } else if (BooleanUtils.isTrue(activityScore.getPublishArticle())) {
-                // 发布文字
+                // 发布文章
                 field += "publish";
                 score += 10;
             }

@@ -17,7 +17,7 @@ import java.util.function.Supplier;
 
 /**
  * @author YiHui
- * @date 2025/2/24
+ * 创建于 2025/2/24
  */
 @Service
 public class AiBots {

@@ -8,7 +8,7 @@ import lombok.Data;
  * 生成文章语义URL请求
  *
  * @author Codex
- * @date 2026/3/26
+ * 创建于 2026/3/26
  */
 @Data
 @ApiModel("生成文章语义URL请求")

@@ -9,7 +9,7 @@ import com.github.paicoding.forum.api.model.vo.article.dto.TagDTO;
  * 标签后台接口
  *
  * @author louzai
- * @date 2022-09-17
+ * 创建于 2022-09-17
  */
 public interface TagSettingService {
 

@@ -10,7 +10,7 @@ import java.util.UUID;
 
 /**
  * @author YiHui
- * @date 2022/8/15
+ * 创建于 2022/8/15
  */
 public class CodeGenerateUtil {
     public static final Integer CODE_LEN = 3;

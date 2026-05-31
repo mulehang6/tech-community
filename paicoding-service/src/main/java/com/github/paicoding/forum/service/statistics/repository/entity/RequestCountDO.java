@@ -11,7 +11,7 @@ import java.util.Date;
  * 请求计数表
  *
  * @author louzai
- * @date 2022-10-1
+ * 创建于 2022-10-1
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

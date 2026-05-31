@@ -6,7 +6,7 @@ import lombok.Data;
  * 敏感词操作请求
  *
  * @author Codex
- * @date 2026/3/24
+ * 创建于 2026/3/24
  */
 @Data
 public class SensitiveWordOperateReq {

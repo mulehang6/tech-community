@@ -15,7 +15,7 @@ import java.util.List;
  * 请求计数mapper接口
  *
  * @author louzai
- * @date 2022-10-1
+ * 创建于 2022-10-1
  */
 public interface RequestCountMapper extends BaseMapper<RequestCountDO> {
 

@@ -6,7 +6,7 @@ import lombok.Data;
 
 /**
  * @author YiHui
- * @date 2022/10/28
+ * 创建于 2022/10/28
  */
 @Data
 public class ArticleListVo {

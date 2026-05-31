@@ -22,7 +22,7 @@ import java.util.stream.Stream;
 
 /**
  * @author YiHui
- * @date 2023/2/28
+ * 创建于 2023/2/28
  */
 public class AsyncProxy {
     private static final AsyncProxy instance = new AsyncProxy();

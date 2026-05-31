@@ -8,7 +8,7 @@ import java.io.Serializable;
  * 微信菜单发布结果
  *
  * @author Codex
- * @date 2026/3/23
+ * 创建于 2026/3/23
  */
 @Data
 public class WxMenuPublishResDTO implements Serializable {

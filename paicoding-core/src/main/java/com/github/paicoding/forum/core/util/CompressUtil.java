@@ -6,7 +6,7 @@ import java.nio.ByteBuffer;
  * 压缩工具类
  *
  * @author YiHui
- * @date 2023/10/17
+ * 创建于 2023/10/17
  */
 public class CompressUtil {
     /**

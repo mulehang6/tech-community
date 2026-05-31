@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Insert;
  * 疑似共享账号状态
  *
  * @author Codex
- * @date 2026/5/12
+ * 创建于 2026/5/12
  */
 public interface UserShareRiskAccountMapper extends BaseMapper<UserShareRiskAccountDO> {
     @Insert("insert into user_share_risk_account("

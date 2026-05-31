@@ -30,7 +30,7 @@ import java.util.stream.Collectors;
  * 首页推荐相关
  *
  * @author YiHui
- * @date 2022/9/6
+ * 创建于 2022/9/6
  */
 @Component
 public class IndexRecommendHelper {

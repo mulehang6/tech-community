@@ -9,7 +9,7 @@ import org.springframework.context.ApplicationEvent;
 
 /**
  * @author YiHui
- * @date 2023/2/22
+ * 创建于 2023/2/22
  */
 @Getter
 @Setter

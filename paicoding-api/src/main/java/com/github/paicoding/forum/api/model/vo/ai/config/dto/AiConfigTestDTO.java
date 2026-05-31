@@ -9,7 +9,7 @@ import java.io.Serializable;
  * AI 连通性测试结果
  *
  * @author Codex
- * @date 2026/3/23
+ * 创建于 2026/3/23
  */
 @Data
 public class AiConfigTestDTO implements Serializable {

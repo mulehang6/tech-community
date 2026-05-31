@@ -30,7 +30,7 @@ import java.util.stream.Collectors;
  * 敏感词后台管理服务实现
  *
  * @author Codex
- * @date 2026/3/24
+ * 创建于 2026/3/24
  */
 @Service
 public class SensitiveAdminServiceImpl implements SensitiveAdminService {

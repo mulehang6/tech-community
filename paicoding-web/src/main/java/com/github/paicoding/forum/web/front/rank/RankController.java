@@ -17,7 +17,7 @@ import java.util.List;
  * 排行榜
  *
  * @author YiHui
- * @date 2023/8/20
+ * 创建于 2023/8/20
  */
 @Controller
 public class RankController {

@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 /**
  * @author YiHui
- * @date 2025/9/15
+ * 创建于 2025/9/15
  */
 @Data
 public class OpenApiUserDTO implements Serializable {

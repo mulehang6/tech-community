@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @author YiHui
- * @date 2024/10/29
+ * 创建于 2024/10/29
  */
 public interface ArticlePayService {
 

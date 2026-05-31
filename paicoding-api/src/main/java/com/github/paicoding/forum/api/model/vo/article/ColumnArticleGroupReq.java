@@ -9,7 +9,7 @@ import java.io.Serializable;
  * 保存Column分组请求参数
  *
  * @author yihui
- * @date 2024/12/17
+ * 创建于 2024/12/17
  */
 @Data
 public class ColumnArticleGroupReq implements Serializable {

@@ -4,7 +4,7 @@ import org.springframework.util.Assert;
 
 /**
  * @author YiHui
- * @date 2022/8/29
+ * 创建于 2022/8/29
  */
 public class EnvUtil {
     private static volatile EnvEnum env;

@@ -14,7 +14,7 @@ import java.nio.charset.StandardCharsets;
  * 微信支付配置
  *
  * @author YiHui
- * @date 2024/12/3
+ * 创建于 2024/12/3
  */
 @Data
 @Component

@@ -15,7 +15,7 @@ import java.util.List;
  * DTO 定义返回给 admin 后端的实体类 (VO)
  *
  * @author 沉默王二
- * @date 2023年05月23日
+ * 创建于 2023年05月23日
  */
 @Data
 public class ArticleAdminDTO implements Serializable {

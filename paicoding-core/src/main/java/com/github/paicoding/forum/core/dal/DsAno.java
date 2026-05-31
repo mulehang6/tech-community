@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 /**
  * @author YiHui
- * @date 2023/4/30
+ * 创建于 2023/4/30
  */
 
 @Retention(RetentionPolicy.RUNTIME)

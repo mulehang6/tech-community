@@ -20,7 +20,7 @@ import java.util.function.BiFunction;
  * 配置变更注册
  *
  * @author YiHui
- * @date 2023/6/26
+ * 创建于 2023/6/26
  */
 @Slf4j
 public class SpringValueRegistry {

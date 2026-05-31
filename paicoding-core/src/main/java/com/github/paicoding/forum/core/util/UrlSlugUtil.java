@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
  * 用于将文章标题转换为SEO友好的URL标识
  *
  * @author Claude
- * @date 2025-11-10
+ * 创建于 2025-11-10
  */
 public class UrlSlugUtil {
 

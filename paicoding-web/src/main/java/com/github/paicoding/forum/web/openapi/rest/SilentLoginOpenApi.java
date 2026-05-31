@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author YiHui
- * @date 2025/9/15
+ * 创建于 2025/9/15
  */
 @RestController
 @RequestMapping(path = "/openapi/login")

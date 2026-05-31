@@ -22,7 +22,7 @@ import java.util.List;
  * 请求计数
  *
  * @author louzai
- * @date 2022-10-1
+ * 创建于 2022-10-1
  */
 @Repository
 public class RequestCountDao extends ServiceImpl<RequestCountMapper, RequestCountDO> {

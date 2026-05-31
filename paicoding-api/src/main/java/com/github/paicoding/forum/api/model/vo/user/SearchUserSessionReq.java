@@ -6,7 +6,7 @@ import lombok.Data;
  * 登录会话分页查询
  *
  * @author Codex
- * @date 2026/4/23
+ * 创建于 2026/4/23
  */
 @Data
 public class SearchUserSessionReq {

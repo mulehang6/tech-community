@@ -18,7 +18,7 @@ import java.util.Optional;
 
 /**
  * @author YiHui
- * @date 2022/9/2
+ * 创建于 2022/9/2
  */
 @Repository
 public class UserFootDao extends ServiceImpl<UserFootMapper, UserFootDO> {

@@ -6,7 +6,7 @@ import lombok.Data;
  * 疑似共享账号查询
  *
  * @author Codex
- * @date 2026/4/25
+ * 创建于 2026/4/25
  */
 @Data
 public class SearchUserShareRiskReq {

@@ -13,7 +13,7 @@ import java.util.Date;
  * 文章支付记录
  *
  * @author YiHui
- * @date 2024-10-29
+ * 创建于 2024-10-29
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

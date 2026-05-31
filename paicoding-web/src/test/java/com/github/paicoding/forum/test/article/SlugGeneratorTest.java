@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * URL Slug生成器测试
  *
  * @author YiHui
- * @date 2025/12/03
+ * 创建于 2025/12/03
  */
 @Slf4j
 @RunWith(SpringJUnit4ClassRunner.class)

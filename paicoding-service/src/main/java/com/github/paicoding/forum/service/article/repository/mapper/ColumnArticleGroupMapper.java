@@ -7,7 +7,7 @@ import com.github.paicoding.forum.service.article.repository.entity.ColumnArticl
  * 专栏文章分组
  *
  * @author YiHui
- * @date 2024/12/17
+ * 创建于 2024/12/17
  */
 public interface ColumnArticleGroupMapper extends BaseMapper<ColumnArticleGroupDO> {
 }

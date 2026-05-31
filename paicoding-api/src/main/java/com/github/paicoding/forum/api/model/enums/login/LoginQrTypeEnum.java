@@ -6,7 +6,7 @@ import lombok.Getter;
  * 微信公众号登录二维码类型
  *
  * @author YiHui
- * @date 2025/9/28
+ * 创建于 2025/9/28
  */
 @Getter
 public enum LoginQrTypeEnum {

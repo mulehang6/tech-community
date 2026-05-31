@@ -8,7 +8,7 @@ import java.text.DecimalFormat;
 
 /**
  * @author YiHui
- * @date 2024/12/04
+ * 创建于 2024/12/04
  */
 public class PriceUtil {
 

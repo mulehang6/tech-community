@@ -7,7 +7,7 @@ import java.util.Random;
  * 随机工具类
  *
  * @author YiHui
- * @date 2024/9/7
+ * 创建于 2024/9/7
  */
 public class RandUtil {
     private static Random random = new Random();

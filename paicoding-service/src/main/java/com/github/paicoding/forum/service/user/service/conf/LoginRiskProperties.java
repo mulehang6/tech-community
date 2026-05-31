@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * 登录风控配置
  *
  * @author Codex
- * @date 2026/4/23
+ * 创建于 2026/4/23
  */
 @Data
 @Component

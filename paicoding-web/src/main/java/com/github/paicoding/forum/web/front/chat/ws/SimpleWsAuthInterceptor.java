@@ -21,7 +21,7 @@ import java.util.Map;
  * v1. 简单版本聊天： 长连接的登录校验拦截器
  *
  * @author YiHui
- * @date 2023/6/6
+ * 创建于 2023/6/6
  */
 @Slf4j
 public class SimpleWsAuthInterceptor extends HttpSessionHandshakeInterceptor implements ChannelInterceptor {

@@ -17,7 +17,7 @@ import java.nio.charset.Charset;
  * 生成 sitemap.xml 和 robots.txt
  *
  * @author YiHui
- * @date 2023/2/13
+ * 创建于 2023/2/13
  */
 @RestController
 public class SiteMapController {

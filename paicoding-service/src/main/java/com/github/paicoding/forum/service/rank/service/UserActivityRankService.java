@@ -10,7 +10,7 @@ import java.util.List;
  * 用户活跃排行榜
  *
  * @author YiHui
- * @date 2023/8/19
+ * 创建于 2023/8/19
  */
 public interface UserActivityRankService {
     /**

@@ -6,7 +6,7 @@ import java.security.cert.X509Certificate;
 
 /**
  * @author YiHui
- * @date 2023/4/20
+ * 创建于 2023/4/20
  */
 public class SslUtils {
     private static void trustAllHttpsCertificates() throws Exception {

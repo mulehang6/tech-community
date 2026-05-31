@@ -4,7 +4,7 @@ import lombok.Getter;
 
 /**
  * @author YiHui
- * @date 2022/9/6
+ * 创建于 2022/9/6
  */
 @Getter
 public enum SidebarStyleEnum {

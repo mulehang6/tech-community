@@ -2,7 +2,7 @@ package com.github.paicoding.forum.core.util;
 
 /**
  * @author YiHui
- * @date 2022/8/31
+ * 创建于 2022/8/31
  */
 public class NumUtil {
 

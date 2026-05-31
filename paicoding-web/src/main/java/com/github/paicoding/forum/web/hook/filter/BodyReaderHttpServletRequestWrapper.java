@@ -21,7 +21,7 @@ import java.util.List;
  * todo 知识点： 请求参数的封装，避免输入流读取一次就消耗了
  *
  * @author YiHui
- * @date 2022/7/6
+ * 创建于 2022/7/6
  */
 public class BodyReaderHttpServletRequestWrapper extends HttpServletRequestWrapper {
     private static final List<String> POST_METHOD = Arrays.asList("POST", "PUT");

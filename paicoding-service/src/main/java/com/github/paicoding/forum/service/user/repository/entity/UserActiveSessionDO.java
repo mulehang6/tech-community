@@ -11,7 +11,7 @@ import java.util.Date;
  * 活跃登录会话
  *
  * @author Codex
- * @date 2026/4/23
+ * 创建于 2026/4/23
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

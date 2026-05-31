@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
  * 短链接请求对象
  *
  * @author betasecond
- * @date 2025-02-13
+ * 创建于 2025-02-13
  */
 @Data
 @NoArgsConstructor

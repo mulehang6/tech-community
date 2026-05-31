@@ -10,7 +10,7 @@ import org.springframework.messaging.simp.SimpMessagingTemplate;
  * websocket消息响应封装工具类
  *
  * @author YiHui
- * @date 2024/11/27
+ * 创建于 2024/11/27
  */
 public class WebSocketResponseUtil {
     private static volatile SimpMessagingTemplate simpMessagingTemplate;

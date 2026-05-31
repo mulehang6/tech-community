@@ -18,7 +18,7 @@ import java.util.Map;
  * 通用
  *
  * @author LouZai
- * @date 2022/9/19
+ * 创建于 2022/9/19
  */
 @RestController
 @Slf4j

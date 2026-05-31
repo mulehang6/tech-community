@@ -18,7 +18,7 @@ import java.util.function.Supplier;
  * - 用于控制文章阅读模式
  *
  * @author YiHui
- * @date 2024/10/29
+ * 创建于 2024/10/29
  */
 @Service
 public class ArticleReadViewServiceExtend {

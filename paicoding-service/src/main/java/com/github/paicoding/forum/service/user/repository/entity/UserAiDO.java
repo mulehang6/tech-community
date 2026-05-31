@@ -14,7 +14,7 @@ import java.util.Date;
  *
  * @ClassName: UserAiDO
  * @Author: ygl
- * @Date: 2023/6/25 21:38
+ * 创建于: 2023/6/25 21:38
  * @Version: 1.0
  */
 @Data

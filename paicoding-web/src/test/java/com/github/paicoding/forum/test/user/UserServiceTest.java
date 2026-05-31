@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * @author YiHui
- * @date 2022/8/6
+ * 创建于 2022/8/6
  */
 public class UserServiceTest extends BasicTest {
 

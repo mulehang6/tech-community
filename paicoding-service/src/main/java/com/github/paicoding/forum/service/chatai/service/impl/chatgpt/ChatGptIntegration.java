@@ -41,7 +41,7 @@ import java.util.concurrent.TimeUnit;
  * chatgpt的交互封装集成
  *
  * @author YiHui
- * @date 2023/4/20
+ * 创建于 2023/4/20
  */
 @Slf4j
 @Service

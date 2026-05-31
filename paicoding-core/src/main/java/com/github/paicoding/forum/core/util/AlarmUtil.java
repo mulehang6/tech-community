@@ -6,7 +6,7 @@ import com.github.paicoding.forum.core.async.AsyncUtil;
 
 /**
  * @author YiHui
- * @date 2023/3/19
+ * 创建于 2023/3/19
  */
 public class AlarmUtil extends AppenderBase<ILoggingEvent> {
     private static final long INTERVAL = 10 * 1000 * 60;

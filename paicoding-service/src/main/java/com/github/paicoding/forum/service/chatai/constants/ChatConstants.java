@@ -11,7 +11,7 @@ import java.util.function.Function;
 
 /**
  * @author YiHui
- * @date 2023/6/2
+ * 创建于 2023/6/2
  */
 public final class ChatConstants {
     /**

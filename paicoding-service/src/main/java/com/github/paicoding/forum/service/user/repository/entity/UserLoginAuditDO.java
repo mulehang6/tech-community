@@ -9,7 +9,7 @@ import lombok.EqualsAndHashCode;
  * 登录审计日志
  *
  * @author Codex
- * @date 2026/4/23
+ * 创建于 2026/4/23
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

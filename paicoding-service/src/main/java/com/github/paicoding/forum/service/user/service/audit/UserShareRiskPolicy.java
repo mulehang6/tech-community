@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  * 共享账号风险策略
  *
  * @author Codex
- * @date 2026/5/10
+ * 创建于 2026/5/10
  */
 @Component
 public class UserShareRiskPolicy {

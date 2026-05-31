@@ -14,7 +14,7 @@ import static com.github.paicoding.forum.core.util.CompressUtil.int2str;
 
 /**
  * @author YiHui
- * @date 2023/8/30
+ * 创建于 2023/8/30
  */
 public class IdUtil {
     /**

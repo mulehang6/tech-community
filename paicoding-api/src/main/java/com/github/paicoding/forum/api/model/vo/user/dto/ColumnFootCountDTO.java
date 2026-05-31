@@ -6,7 +6,7 @@ import lombok.Data;
  * 专栏统计计数
  *
  * @author louzai
- * @date 2022-07-18
+ * 创建于 2022-07-18
  */
 @Data
 public class ColumnFootCountDTO {

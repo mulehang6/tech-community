@@ -4,7 +4,7 @@ package com.github.paicoding.forum.service.sensitive.service;
  * 敏感词处理豁免服务
  *
  * @author Codex
- * @date 2026/3/25
+ * 创建于 2026/3/25
  */
 public interface SensitiveBypassService {
 

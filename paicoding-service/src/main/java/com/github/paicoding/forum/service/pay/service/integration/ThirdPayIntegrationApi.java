@@ -14,7 +14,7 @@ import java.util.function.Function;
  * 对接三方支付的API定义
  *
  * @author YiHui
- * @date 2024/12/6
+ * 创建于 2024/12/6
  */
 public interface ThirdPayIntegrationApi {
 

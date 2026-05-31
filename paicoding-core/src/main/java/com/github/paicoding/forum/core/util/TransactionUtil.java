@@ -7,7 +7,7 @@ import org.springframework.transaction.support.TransactionSynchronizationManager
  * 事务辅助工具类
  *
  * @author YiHui
- * @date 2023/6/26
+ * 创建于 2023/6/26
  */
 public class TransactionUtil {
     /**

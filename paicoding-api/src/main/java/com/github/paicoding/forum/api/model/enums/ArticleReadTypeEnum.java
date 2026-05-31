@@ -8,7 +8,7 @@ import java.util.Objects;
  * 文章阅读类型枚举
  *
  * @author YiHui
- * @date 2024/10/29
+ * 创建于 2024/10/29
  */
 @Getter
 public enum ArticleReadTypeEnum {

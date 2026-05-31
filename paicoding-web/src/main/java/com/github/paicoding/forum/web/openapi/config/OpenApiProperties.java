@@ -11,7 +11,7 @@ import java.util.List;
  * 开放平台相关配置
  *
  * @author yihui
- * @date 2025/9/15
+ * 创建于 2025/9/15
  */
 @Data
 @ConfigurationProperties(prefix = "paicoding.openapi")

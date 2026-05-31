@@ -14,7 +14,7 @@ import java.util.List;
  * 登录审计日志
  *
  * @author Codex
- * @date 2026/4/23
+ * 创建于 2026/4/23
  */
 public interface UserLoginAuditMapper extends BaseMapper<UserLoginAuditDO> {
     List<UserShareRiskDTO> listUserShareRisk(@Param("req") SearchUserShareRiskReq req,

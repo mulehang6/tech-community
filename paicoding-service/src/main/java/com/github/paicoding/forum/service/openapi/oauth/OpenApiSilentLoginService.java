@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
  * 静默登录的开放平台接口（授权的第三方平台，可以根据用户技术派的TOKEN来获取用户信息，实现静默登录）
  *
  * @author YiHui
- * @date 2025/9/15
+ * 创建于 2025/9/15
  */
 @Service
 public class OpenApiSilentLoginService {

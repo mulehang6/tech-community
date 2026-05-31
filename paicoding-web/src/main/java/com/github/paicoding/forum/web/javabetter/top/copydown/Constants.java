@@ -6,7 +6,7 @@ import java.nio.file.Paths;
  * 微信搜索「沉默王二」，回复 Java
  *
  * @author 沉默王二
- * @date 5/28/22
+ * 创建于 5/28/22
  */
 public class Constants {
     // 文章目录

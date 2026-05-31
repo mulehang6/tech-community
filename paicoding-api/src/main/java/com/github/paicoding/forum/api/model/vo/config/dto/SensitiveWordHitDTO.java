@@ -8,7 +8,7 @@ import java.io.Serializable;
  * 敏感词命中统计
  *
  * @author Codex
- * @date 2026/3/24
+ * 创建于 2026/3/24
  */
 @Data
 public class SensitiveWordHitDTO implements Serializable {

@@ -10,7 +10,7 @@ import lombok.Data;
  *
  * @author yihui
  * @link <a href="https://developers.weixin.qq.com/doc/offiaccount/Message_Management/Passive_user_reply_message.html#%E5%9B%9E%E5%A4%8D%E5%9B%BE%E6%96%87%E6%B6%88%E6%81%AF"/>
- * @date 2022/6/20
+ * 创建于 2022/6/20
  */
 @Data
 @JacksonXmlRootElement(localName = "item")

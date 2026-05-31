@@ -4,7 +4,7 @@ import java.lang.annotation.*;
 
 /**
  * @author YiHui
- * @date 2022/8/25
+ * 创建于 2022/8/25
  */
 @Target({ElementType.METHOD, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

@@ -6,7 +6,7 @@ import lombok.Data;
  * 每天的统计计数
  *
  * @author louzai
- * @date 2022-10-1
+ * 创建于 2022-10-1
  */
 @Data
 public class StatisticsDayDTO {

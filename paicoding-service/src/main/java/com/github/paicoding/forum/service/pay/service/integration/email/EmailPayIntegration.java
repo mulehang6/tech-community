@@ -19,7 +19,7 @@ import java.util.Objects;
  * 个人收款码，基于微信的支付方式
  *
  * @author YiHui
- * @date 2024/12/6
+ * 创建于 2024/12/6
  */
 @Slf4j
 @Service

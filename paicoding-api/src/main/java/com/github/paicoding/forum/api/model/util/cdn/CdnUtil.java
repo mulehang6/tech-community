@@ -4,7 +4,7 @@ import com.github.paicoding.forum.api.model.enums.ai.AiBotEnum;
 
 /**
  * @author YiHui
- * @date 2026/1/12
+ * 创建于 2026/1/12
  */
 public class CdnUtil {
 

@@ -8,7 +8,7 @@ import java.io.Serializable;
  * 站点计数
  *
  * @author YiHui
- * @date 2023/8/22
+ * 创建于 2023/8/22
  */
 @Data
 public class SiteCntVo implements Serializable {

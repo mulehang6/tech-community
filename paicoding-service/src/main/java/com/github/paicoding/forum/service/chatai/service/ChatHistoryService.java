@@ -10,7 +10,7 @@ import java.util.List;
  * 对话会话记录服务
  *
  * @author YiHui
- * @date 2025/2/7
+ * 创建于 2025/2/7
  */
 public interface ChatHistoryService {
     /**

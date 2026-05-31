@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
  * 时间 + 数据中心(3位) + 机器id(7位) + 序列号(12位)
  *
  * @author YiHui
- * @date 2023/10/16
+ * 创建于 2023/10/16
  */
 @Slf4j
 public class PaiSnowflakeIdGenerator implements IdGenerator {

@@ -9,7 +9,7 @@ import java.io.Serializable;
  * 知识星球登录
  *
  * @author YiHui
- * @date 2025/08/19
+ * 创建于 2025/08/19
  */
 @Data
 @Accessors(chain = true)

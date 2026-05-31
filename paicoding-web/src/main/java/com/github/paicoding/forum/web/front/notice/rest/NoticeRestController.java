@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 消息通知
  *
  * @author louzai
- * @date : 2022/9/4 10:56
+ * 创建于 : 2022/9/4 10:56
  **/
 @Permission(role = UserRole.LOGIN)
 @RestController

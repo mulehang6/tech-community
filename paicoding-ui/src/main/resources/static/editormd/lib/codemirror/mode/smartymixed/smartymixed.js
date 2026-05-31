@@ -6,7 +6,7 @@
 * @brief Smarty Mixed Codemirror mode (Smarty + Mixed HTML)
 * @author Ruslan Osmanov <rrosmanov at gmail dot com>
 * @version 3.0
-* @date 05.07.2013
+* 创建于 05.07.2013
 */
 
 // Warning: Don't base other modes on this one. This here is a

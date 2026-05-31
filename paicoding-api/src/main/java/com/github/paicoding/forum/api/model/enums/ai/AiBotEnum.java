@@ -4,7 +4,7 @@ import lombok.Getter;
 
 /**
  * @author YiHui
- * @date 2025/2/24
+ * 创建于 2025/2/24
  */
 @Getter
 public enum AiBotEnum {

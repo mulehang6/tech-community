@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * @author LouZai
- * @date 2022/9/8
+ * 创建于 2022/9/8
  */
 @Data
 public class ImageVo {

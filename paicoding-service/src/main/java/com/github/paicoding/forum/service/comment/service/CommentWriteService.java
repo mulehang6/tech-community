@@ -7,7 +7,7 @@ import com.github.paicoding.forum.service.comment.repository.entity.CommentDO;
  * 评论Service接口
  *
  * @author louzai
- * @date 2022-07-24
+ * 创建于 2022-07-24
  */
 public interface CommentWriteService {
 

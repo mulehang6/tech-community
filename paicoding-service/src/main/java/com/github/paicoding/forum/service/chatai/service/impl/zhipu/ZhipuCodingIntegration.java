@@ -31,7 +31,7 @@ import java.util.concurrent.TimeUnit;
  * 智谱 Coding Plan OpenAI 兼容接入
  *
  * @author Codex
- * @date 2026/3/23
+ * 创建于 2026/3/23
  */
 @Slf4j
 @Component

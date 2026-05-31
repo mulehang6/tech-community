@@ -8,7 +8,7 @@ import java.io.Serializable;
  * 对话
  *
  * @author YiHui
- * @date 2025/2/7
+ * 创建于 2025/2/7
  */
 @Data
 public class ChatSessionItemVo implements Serializable {

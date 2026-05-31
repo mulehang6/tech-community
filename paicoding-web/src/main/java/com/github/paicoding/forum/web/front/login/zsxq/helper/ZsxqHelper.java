@@ -15,7 +15,7 @@ import java.util.TreeMap;
  * 知识星球登录相关类
  *
  * @author YiHui
- * @date 2025/8/19
+ * 创建于 2025/8/19
  */
 @Slf4j
 @Component

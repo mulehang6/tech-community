@@ -24,7 +24,7 @@ import java.util.function.Function;
  * 返回json格式数据
  *
  * @author YiHui
- * @date 2022/9/2
+ * 创建于 2022/9/2
  */
 @Slf4j
 @RequestMapping(path = "article/api/pay")

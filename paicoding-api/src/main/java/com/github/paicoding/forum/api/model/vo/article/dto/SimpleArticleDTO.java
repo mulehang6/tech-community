@@ -12,7 +12,7 @@ import java.sql.Timestamp;
  * 文章推荐
  *
  * @author YiHui
- * @date 2022/9/6
+ * 创建于 2022/9/6
  */
 @Data
 @Accessors(chain = true)

@@ -14,7 +14,7 @@ import java.util.Date;
 
 /**
  * @author YiHui
- * @date 2022/8/15
+ * 创建于 2022/8/15
  */
 @Data
 @ApiModel("用户基础实体对象")

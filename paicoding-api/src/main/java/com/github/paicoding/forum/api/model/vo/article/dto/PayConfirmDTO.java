@@ -6,7 +6,7 @@ import java.io.Serializable;
 
 /**
  * @author YiHui
- * @date 2024/10/31
+ * 创建于 2024/10/31
  */
 @Data
 public class PayConfirmDTO implements Serializable {

@@ -26,7 +26,7 @@ import java.util.function.Consumer;
  * 基于大模型的杠精机器人
  *
  * @author YiHui
- * @date 2025/2/24
+ * 创建于 2025/2/24
  */
 @Component
 public class AiBotService {

@@ -10,7 +10,7 @@ import com.github.paicoding.forum.api.model.vo.config.dto.SensitiveWordHitDTO;
  * 敏感词后台管理服务
  *
  * @author Codex
- * @date 2026/3/24
+ * 创建于 2026/3/24
  */
 public interface SensitiveAdminService {
 

@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 仅管理员可访问
  *
  * @author Claude
- * @date 2025-11-10
+ * 创建于 2025-11-10
  */
 @Slf4j
 @RestController

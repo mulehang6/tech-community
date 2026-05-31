@@ -49,7 +49,7 @@ import java.util.Objects;
  * 专栏入口
  *
  * @author YiHui
- * @date 2022/9/15
+ * 创建于 2022/9/15
  */
 @Controller
 @RequestMapping(path = "column")

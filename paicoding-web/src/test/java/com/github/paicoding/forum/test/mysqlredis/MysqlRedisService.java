@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * @author Louzai
- * @date 2023/5/5
+ * 创建于 2023/5/5
  */
 @Slf4j
 public class MysqlRedisService extends BasicTest {

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author yihui
- * @date 2022/6/15
+ * 创建于 2022/6/15
  */
 @Data
 @ConfigurationProperties(prefix = "view.site")

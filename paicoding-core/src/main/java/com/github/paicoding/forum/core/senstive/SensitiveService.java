@@ -30,7 +30,7 @@ import java.util.regex.Pattern;
  * 敏感词服务类
  *
  * @author YiHui
- * @date 2023/8/9
+ * 创建于 2023/8/9
  */
 @Slf4j
 @Service

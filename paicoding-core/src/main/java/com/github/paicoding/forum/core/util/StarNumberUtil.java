@@ -6,7 +6,7 @@ import org.apache.commons.lang3.StringUtils;
  * 星球编号工具类
  *
  * @author YiHui
- * @date 2025/8/24
+ * 创建于 2025/8/24
  */
 public class StarNumberUtil {
 

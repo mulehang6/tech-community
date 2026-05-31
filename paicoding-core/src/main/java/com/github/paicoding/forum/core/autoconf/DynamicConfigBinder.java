@@ -24,7 +24,7 @@ import java.util.function.Consumer;
  * 自定义动态配置绑定
  *
  * @author YiHui
- * @date 2023/6/20
+ * 创建于 2023/6/20
  */
 public class DynamicConfigBinder {
     private final ApplicationContext applicationContext;
