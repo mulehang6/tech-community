@@ -59,8 +59,6 @@ public class SidebarServiceImpl implements SidebarService {
      * cacheNames -> 类似缓存前缀的概念
      * key -> SpEL 表达式，可以从传参中获取，来构建缓存的key
      * cacheManager -> 缓存管理器，如果全局只有一个时，可以省略
-     *
-     * @return
      */
     @Override
     @Cacheable(key = "'homeSidebar'", cacheManager = "caffeineCacheManager", cacheNames = "home")
@@ -77,8 +75,6 @@ public class SidebarServiceImpl implements SidebarService {
 
     /**
      * 公告信息
-     *
-     * @return
      */
     private SideBarDTO noticeSideBar() {
         List<ConfigDTO> noticeList = configService.getConfigList(ConfigTypeEnum.NOTICE);
@@ -110,8 +106,6 @@ public class SidebarServiceImpl implements SidebarService {
 
     /**
      * 推荐教程的侧边栏
-     *
-     * @return
      */
     private SideBarDTO columnSideBar() {
         List<ConfigDTO> columnList = configService.getConfigList(ConfigTypeEnum.COLUMN);
@@ -130,8 +124,6 @@ public class SidebarServiceImpl implements SidebarService {
 
     /**
      * 热门文章
-     *
-     * @return
      */
     private SideBarDTO hotArticles() {
         PageListVo<SimpleArticleDTO> vo = articleReadService.queryHotArticlesForRecommend(PageParam.newPageInstance(1, 8));
@@ -145,7 +137,6 @@ public class SidebarServiceImpl implements SidebarService {
      *
      * @param author    文章作者id
      * @param articleId 文章id
-     * @return
      */
     @Override
     @Cacheable(key = "'sideBar_' + #articleId", cacheManager = "caffeineCacheManager", cacheNames = "article")
@@ -159,8 +150,6 @@ public class SidebarServiceImpl implements SidebarService {
 
     /**
      * PDF 优质资源
-     *
-     * @return
      */
     @Cacheable(key = "'sideBar'", cacheManager = "caffeineCacheManager", cacheNames = "article")
     public SideBarDTO pdfSideBar() {
@@ -191,10 +180,6 @@ public class SidebarServiceImpl implements SidebarService {
 
     /**
      * 作者的文章列表推荐
-     *
-     * @param authorId
-     * @param size
-     * @return
      */
     public SideBarDTO recommendByAuthor(Long authorId, Long articleId, long size) {
         List<SimpleArticleDTO> list = articleDao.listAuthorHotArticles(authorId, PageParam.newPageInstance(PageParam.DEFAULT_PAGE_NUM, size));
@@ -213,8 +198,6 @@ public class SidebarServiceImpl implements SidebarService {
 
     /**
      * 查询教程的侧边栏信息
-     *
-     * @return
      */
     @Override
     @Cacheable(key = "'columnSidebar'", cacheManager = "caffeineCacheManager", cacheNames = "column")
@@ -227,8 +210,6 @@ public class SidebarServiceImpl implements SidebarService {
 
     /**
      * 订阅公众号
-     *
-     * @return
      */
     private SideBarDTO subscribeSideBar() {
         List<ConfigDTO> subscribeList = configService.getConfigList(ConfigTypeEnum.COLUMN);
@@ -258,8 +239,6 @@ public class SidebarServiceImpl implements SidebarService {
 
     /**
      * 排行榜
-     *
-     * @return
      */
     private SideBarDTO rankList() {
         List<RankItemDTO> list = userActivityRankService.queryRankList(ActivityRankTimeEnum.MONTH, 8);

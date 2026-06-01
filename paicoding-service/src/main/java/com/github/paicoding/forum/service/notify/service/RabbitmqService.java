@@ -15,13 +15,6 @@ public interface RabbitmqService {
 
     /**
      * 发布消息
-     *
-     * @param exchange
-     * @param exchangeType
-     * @param toutingKey
-     * @param message
-     * @throws IOException
-     * @throws TimeoutException
      */
     void publishMsg(String exchange,
                     BuiltinExchangeType exchangeType,
@@ -31,12 +24,6 @@ public interface RabbitmqService {
 
     /**
      * 消费消息
-     *
-     * @param exchange
-     * @param queue
-     * @param routingKey
-     * @throws IOException
-     * @throws TimeoutException
      */
     void consumerMsg(String exchange,
                      String queue,

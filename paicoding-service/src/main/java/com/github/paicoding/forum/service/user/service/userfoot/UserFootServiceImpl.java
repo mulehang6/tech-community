@@ -4,7 +4,6 @@ import com.github.paicoding.forum.api.model.enums.DocumentTypeEnum;
 import com.github.paicoding.forum.api.model.enums.NotifyTypeEnum;
 import com.github.paicoding.forum.api.model.enums.OperateTypeEnum;
 import com.github.paicoding.forum.api.model.vo.PageParam;
-import com.github.paicoding.forum.api.model.vo.ResVo;
 import com.github.paicoding.forum.api.model.vo.user.dto.SimpleUserInfoDTO;
 import com.github.paicoding.forum.api.model.vo.user.dto.UserFootStatisticDTO;
 import com.github.paicoding.forum.core.common.CommonConstants;
@@ -180,12 +179,6 @@ public class UserFootServiceImpl implements UserFootService {
 
     /**
      * 相同则直接返回false不用更新；不同则更新,返回true
-     *
-     * @param supplier
-     * @param consumer
-     * @param input
-     * @param <T>
-     * @return
      */
     private <T> boolean compareAndUpdate(Supplier<T> supplier, Consumer<T> consumer, T input) {
         if (Objects.equals(supplier.get(), input)) {

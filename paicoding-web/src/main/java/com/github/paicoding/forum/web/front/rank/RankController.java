@@ -26,13 +26,9 @@ public class RankController {
 
     /**
      * 活跃用户排行榜
-     *
-     * @param time
-     * @param model
-     * @return
      */
     @RequestMapping(path = "/rank/{time}")
-    public String rank(@PathVariable(value = "time") String time, Model model) {
+    public String rank(@PathVariable String time, Model model) {
         ActivityRankTimeEnum rankTime = ActivityRankTimeEnum.nameOf(time);
         if (rankTime == null) {
             rankTime = ActivityRankTimeEnum.MONTH;
